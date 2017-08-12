@@ -170,6 +170,7 @@ col = [**Basic stats**
 <br />
 
 # p_value값을 구하기
+### p_value값이 0.05미만인 것들의 표
 ![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/11.png?raw=true) 
 
 <br />
