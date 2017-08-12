@@ -160,6 +160,7 @@ col = [**Basic stats**
 - **2차 스탯 및 플레이오프 스탯** 등을 반영할 수 있는 더 정교한 모델 및 클러스터링 작업과 추가적 데이터 확보
 <br />
 # 5. References
+
 1. A new perspective on positions in baskerball players using cluster analysis
 http://www.sloansportsconference.com/wp-content/uploads/2012/02/44-Lutz_cluster_analysis_NBA.pdf
 
