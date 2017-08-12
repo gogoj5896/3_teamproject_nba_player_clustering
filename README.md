@@ -140,7 +140,7 @@ col = [**Basic stats**
 
 
 ## -- 1999년 이전 추세
-![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/4?raw=true)
+![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/4.png?raw=true)
 
 #### 센터의 시대가 끝나감에 따라서  Aggressive big의 감소추세가 나타나며, Defensive passer가 증가추세가 나타난다.  
 
