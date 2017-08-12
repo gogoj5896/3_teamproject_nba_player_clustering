@@ -136,11 +136,12 @@ col = [**Basic stats**
 
 ## -- 1996 ~ 2017 추세
 ![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/3.png?raw=true)  
- #### 위에서 확인한 바와 같이,  Balanced wing scorer , Long shooter,  Midrange stopper는 전체 연도별 흐름에서 일정한 추세를 가지고 있는 것을 알 수 있었다. 이는 점점 90년대에는 센터 위주의 농구 였지만 점점 가드 위주의 농구로 전환됨에 따라 이런 추세를 띈 것으로 보인다.  
+ #### 위에서 확인한 바와 같이,  Defensive passer, Long shooter,  Midrange stopper는 전체 연도별 흐름에서 일정한 추세를 가지고 있는 것을 알 수 있었다. 이는 점점 90년대에는 센터 위주의 농구 였지만 점점 가드 위주의 농구로 전환됨에 따라 이런 추세를 띈 것으로 보인다.  
 
 
 ## -- 1999년 이전 추세
 ![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/4?raw=true)
+
 #### 센터의 시대가 끝나감에 따라서  Aggressive big의 감소추세가 나타나며, Defensive passer가 증가추세가 나타난다.  
 
 
