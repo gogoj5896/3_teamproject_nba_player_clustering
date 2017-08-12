@@ -1,5 +1,7 @@
 # I. Introduction
 
+<br />
+
 ## 1) 농구의 포지션 이란? 스탯?
 
 - 포지션
@@ -89,8 +91,9 @@ col = [**Basic stats**
 90개의 경우 농구 기록의 범위를 살펴볼 때 많은 것으로 여겨질 수 있지만,  
 다른 논문에서 변수 각각이 설명할 수 있는 범위를 넓히기 위하여 **총 80개의 변수를 사용하였던 예**를 볼 때, **분류 정확도**를 높이기 위하여 90개의 변수를 사용하는 것은 무리가 없다고 가정하고 진행하였다.
 
-
-
+<br />
+<br />
+<br />
 
 # 2. Model setup
 1) Classification 모델 선택
@@ -114,6 +117,8 @@ col = [**Basic stats**
 
 <br />
 <br />
+<br />
+
 # 3. Apply basketball analysis by clustering data
 
 ## 농구 흐름에 따른 1998-2017 포지션 변화 추세 분석 <br />  
@@ -149,6 +154,7 @@ col = [**Basic stats**
 #### 스몰볼의 흐름에 따라서  Long shooter, Ball Handler등의 증가를 확인 할 수 있었다.  
 #### 위에서 조사한 것은 연도별 선형관계가 있는 증가와 감소만을 확인할 수 있으므로 각 포지션별의 상관관계에 대해서 살펴보도록 하겠다.
 
+<br />
 <br />
 <br />
 
@@ -222,6 +228,7 @@ col = [**Basic stats**
 
 <br />
 <br />
+<br />
 
 # 4. Conclusion & further research
 ### Conclusion
@@ -234,7 +241,11 @@ col = [**Basic stats**
 - 수비에 관한 구체적인 기록들이 클러스터링 부분에 많이 반영되지 않아 향후 **수비 관련 지표들에 대해 더 추가하여 반영할 필요**가 있음
 
 - **2차 스탯 및 플레이오프 스탯** 등을 반영할 수 있는 더 정교한 모델 및 클러스터링 작업과 추가적 데이터 확보
+
 <br />
+<br />
+<br />
+
 # 5. References
 
 1. A new perspective on positions in baskerball players using cluster analysis
