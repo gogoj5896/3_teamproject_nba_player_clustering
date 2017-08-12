@@ -170,7 +170,7 @@ col = [**Basic stats**
 <br />
 
 # p_value값을 구하기
-![pic]![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/11.png?raw=true) 
+![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/11.png?raw=true) 
 
 <br />
 
@@ -206,7 +206,7 @@ col = [**Basic stats**
 
 <br />
 1. 포지션별 이동이 가능하며 음의 관계를 갖는 것은, 서로가 대체 관계를 갖는 것으로 예상되며,
-
+<br />
 2. 포지션별 이동이 가능하나 양의관계를 갖거나 포지션별 이동이 불가능하나 음의관계를 갖는 것은,
    다른 요인(농구 전략의 변화)등으로 인해 같이 증가되는 것으로 예상된다.
 
@@ -227,7 +227,7 @@ col = [**Basic stats**
 
 - **K-Means 클러스터링**을 이용하여 NBA Position에 대해 기존의 5가지의 분류와는 다른 **새로운 10가지 포지션으로의 분류**를 시행함
 
-- **새롭게 정의한 포지션** 별 년도별 흐름 파악
+- **새롭게 정의한 포지션** 별 년도별 흐름 파악 및 포지션별 관계 
 
 ### further research
 - 수비에 관한 구체적인 기록들이 클러스터링 부분에 많이 반영되지 않아 향후 **수비 관련 지표들에 대해 더 추가하여 반영할 필요**가 있음
