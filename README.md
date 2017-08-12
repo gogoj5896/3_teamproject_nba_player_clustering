@@ -112,6 +112,8 @@ col = [**Basic stats**
 * Defensive passer : **어시스트와 스틸에 강점**이 있고 **수비적**인 성향이 강한 선수 #2
 * Commander : **어시스트를 주력**으로 하는 **득점력**을 겸비한 **플레이메이커** #9
 
+<br />
+<br />
 # 3. Apply basketball analysis by clustering data
 
 ## 농구 흐름에 따른 1998-2017 포지션 변화 추세 분석 <br />  
@@ -147,6 +149,9 @@ col = [**Basic stats**
 #### 스몰볼의 흐름에 따라서  Long shooter, Ball Handler등의 증가를 확인 할 수 있었다.  
 #### 위에서 조사한 것은 연도별 선형관계가 있는 증가와 감소만을 확인할 수 있으므로 각 포지션별의 상관관계에 대해서 살펴보도록 하겠다.
 
+<br />
+<br />
+
 # 각 포지션끼리의 상관관계 
 ### 전체 시즌에 대한 상관관계
 ![pic]
@@ -161,9 +166,13 @@ col = [**Basic stats**
 ![pic]
 #### 모든 상관관계 값을 받아들이기 보다는, p_value값을 구해서 상관관계에 대한 검증을 해보도록 하겠다.
 
+<br />
+<br />
+
 # p_value값을 구하기
 ![pic]
 
+<br />
 
 ### 전체시즌의 상관관계에서 나눠서 살펴보면,
 <시대별 농구 흐름>
@@ -209,6 +218,8 @@ col = [**Basic stats**
 포지션별 이동이 불가능하나 음의관계를 갖는 것 중에서는 Long shooter와 Non-scoring Big,Classic big 등이 있는데,
 이는 기존 센터 위주의 농구에서 벗어나서 슈터 및 3점위주의 농구로의 전환되었음을 의미한다.
 
+<br />
+<br />
 
 # 4. Conclusion & further research
 ### Conclusion
