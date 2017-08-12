@@ -112,6 +112,8 @@ col = [**Basic stats**
 * Defensive passer : **어시스트와 스틸에 강점**이 있고 **수비적**인 성향이 강한 선수 #2
 * Commander : **어시스트를 주력**으로 하는 **득점력**을 겸비한 **플레이메이커** #9
 
+<br />
+<br />
 # 3. Apply basketball analysis by clustering data
 
 ## 농구 흐름에 따른 1998-2017 포지션 변화 추세 분석 <br />  
@@ -144,8 +146,80 @@ col = [**Basic stats**
 
 ## -- 2010년 이후 추세
 ![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/regression_line_2009_2017.png?raw=true)
-#### 스몰볼의 흐름에 따라서  Long shooter, Ball Handler, Balancer wing scorer의 증가를 확인 할 수 있었다.  
+#### 스몰볼의 흐름에 따라서  Long shooter, Ball Handler등의 증가를 확인 할 수 있었다.  
+#### 위에서 조사한 것은 연도별 선형관계가 있는 증가와 감소만을 확인할 수 있으므로 각 포지션별의 상관관계에 대해서 살펴보도록 하겠다.
 
+<br />
+<br />
+
+# 각 포지션끼리의 상관관계 
+### 전체 시즌에 대한 상관관계
+![pic]
+
+### 1999년도 까지의 상관관계
+![pic]
+
+### 1999-2009년도의 상관관계
+![pic]
+
+### 2009년도 이후의 상관관계
+![pic]
+#### 모든 상관관계 값을 받아들이기 보다는, p_value값을 구해서 상관관계에 대한 검증을 해보도록 하겠다.
+
+<br />
+<br />
+
+# p_value값을 구하기
+![pic]
+
+<br />
+
+### 전체시즌의 상관관계에서 나눠서 살펴보면,
+<시대별 농구 흐름>
+- 1990 ~ 1999 : 센터의 시대(4대 센터)(센터 위주의 농구로, 빠른 공격보다는 지공을 위주로 공격을 하는 팀이 많았다.)
+- 2000 ~ 2009 : 슈팅가드의 전성시대(슈팅가드 들이 본인이 직접 득점을 하는 식으로 공격을 마무리 짓는 팀이 많았다.)
+- 2010 ~ 2017 : 스몰볼 시대(스몰볼은 라인업 사이즈를 작게 함으로써, 공격속도 등을 빠르게 가져가는 농구를 의미한다.)
+
+
+<시대별 흐름에 따른 포지션 분석>
+- 포지션별 이동이 가능하며 음의 관계,
+
+ Balanced wing scorer, Midrange Stopper<br />
+ Midrange Stopper, Long shooter<br />
+<br />
+
+- 포지션별 이동이 가능하나 양의관계
+
+ Defensive passer, Long shooter<br />
+ Commander, Long shooter<br />
+<br />	
+
+- 포지션별 이동이 불가능하나 음의관계
+
+ Defensive passer, Ball Handler<br />
+ Defensive passer, Midrange Stopper<br />
+ Ball Handler, Classic big<br />
+ Long shooter, Classic big<br />
+ Non-scoring Big, Long shooter<br />
+ Defensive passer,  Non-scoring Big<br />
+
+
+<br />
+1. 포지션별 이동이 가능하며 음의 관계를 갖는 것은, 서로가 대체 관계를 갖는 것으로 예상되며,
+2. 포지션별 이동이 가능하나 양의관계를 갖거나 포지션별 이동이 불가능하나 음의관계를 갖는 것은,
+   다른 요인(농구 전략의 변화)등으로 인해 같이 증가되는 것으로 예상된다.
+
+<br />
+
+3점을 많이 던지는 2000년 대부터는 Long shooter 및 Midrange Stopper들이 꾸준히 증가함을 회귀선 등을 통해 알 수 있었는데, 그에 따라서 3점슛보다 가까운 거리에서 던지는 Midrange Stopper는 감소하고 있음을 알 수 있다.
+
+<br />
+
+포지션별 이동이 불가능하나 음의관계를 갖는 것 중에서는 Long shooter와 Non-scoring Big,Classic big 등이 있는데,
+이는 기존 센터 위주의 농구에서 벗어나서 슈터 및 3점위주의 농구로의 전환되었음을 의미한다.
+
+<br />
+<br />
 
 # 4. Conclusion & further research
 ### Conclusion
