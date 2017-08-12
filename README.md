@@ -118,7 +118,7 @@ col = [**Basic stats**
 
 ## 농구 흐름에 따른 1998-2017 포지션 변화 추세 분석 <br />  
 ### -- 전체 기간, 전체 클러스터
-![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/clustered_position_by_year.png?raw=true)  
+![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/1.png?raw=true)  
 #### 1. Balanced wing scorer , Long shooter는 증가의 추세를 가지며  
 #### 2. Midrange stopper는 감소의 추세를 가진다.
 #### 3. 하지만 나머지 포지션 같은 경우에는 시즌별 편차가 있어서 시대별 흐름에 따라 이를 더 자세히 검토하도록 하겠다.
@@ -130,22 +130,22 @@ col = [**Basic stats**
 
 
 ## -- 1996 ~ 2017 추세
-![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/regression_line_1996_2017.png?raw=true)  
+![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/3.png?raw=true)  
  #### 위에서 확인한 바와 같이,  Balanced wing scorer , Long shooter,  Midrange stopper는 전체 연도별 흐름에서 일정한 추세를 가지고 있는 것을 알 수 있었다. 이는 점점 90년대에는 센터 위주의 농구 였지만 점점 가드 위주의 농구로 전환됨에 따라 이런 추세를 띈 것으로 보인다.  
 
 
 ## -- 1999년 이전 추세
-![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/regression_line_1996_1998.png?raw=true)
+![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/4?raw=true)
 #### 센터의 시대가 끝나감에 따라서  Aggressive big의 감소추세가 나타나며, Defensive passer가 증가추세가 나타난다.  
 
 
 ## -- 1999 ~ 2009년 추세
-![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/regression_line_1999_2008.png?raw=true)
+![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/5.png?raw=true) 
 #### 슈팅가드의 시대가 시작됨에 따라, shooter와 관련된 포지션의 증가를 확인할 수 있다.  
 
 
 ## -- 2010년 이후 추세
-![position](https://github.com/DSS5NBA/NBA_position_clustering/blob/master/regression_line_2009_2017.png?raw=true)
+![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/6.png?raw=true) 
 #### 스몰볼의 흐름에 따라서  Long shooter, Ball Handler등의 증가를 확인 할 수 있었다.  
 #### 위에서 조사한 것은 연도별 선형관계가 있는 증가와 감소만을 확인할 수 있으므로 각 포지션별의 상관관계에 대해서 살펴보도록 하겠다.
 
@@ -154,23 +154,23 @@ col = [**Basic stats**
 
 # 각 포지션끼리의 상관관계 
 ### 전체 시즌에 대한 상관관계
-![pic]
+![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/7.png?raw=true) 
 
 ### 1999년도 까지의 상관관계
-![pic]
+![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/8.png?raw=true) 
 
 ### 1999-2009년도의 상관관계
-![pic]
+![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/9.png?raw=true) 
 
 ### 2009년도 이후의 상관관계
-![pic]
+![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/10.png?raw=true) 
 #### 모든 상관관계 값을 받아들이기 보다는, p_value값을 구해서 상관관계에 대한 검증을 해보도록 하겠다.
 
 <br />
 <br />
 
 # p_value값을 구하기
-![pic]
+![pic]![position](https://github.com/gogoj5896/3_teamproject_nba_player_clustering/blob/master/image_file/11.png?raw=true) 
 
 <br />
 
@@ -206,6 +206,7 @@ col = [**Basic stats**
 
 <br />
 1. 포지션별 이동이 가능하며 음의 관계를 갖는 것은, 서로가 대체 관계를 갖는 것으로 예상되며,
+
 2. 포지션별 이동이 가능하나 양의관계를 갖거나 포지션별 이동이 불가능하나 음의관계를 갖는 것은,
    다른 요인(농구 전략의 변화)등으로 인해 같이 증가되는 것으로 예상된다.
 
